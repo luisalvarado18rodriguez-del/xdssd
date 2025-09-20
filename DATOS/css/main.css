@@ -20,19 +20,7 @@ body {
   perspective: 1000px;
 }
 
-#mensaje-flor {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  text-align: center;
-  font-size: 2rem;
-  color: #ff69b4; /* Rosa bonito */
-  font-family: 'Segoe UI', sans-serif;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-  opacity: 0; /* Oculto al inicio */
-  transition: opacity 2s ease-in-out;
-  z-index: 10;
-}
+
 
 .night {
   position: fixed;
