@@ -28,7 +28,10 @@ body {
   margin-top: 20px;
   animation: aparecer 2s ease-in-out;
 }
-
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .night {
   position: fixed;
   left: 50%;
