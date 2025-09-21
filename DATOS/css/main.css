@@ -20,7 +20,14 @@ body {
   perspective: 1000px;
 }
 
-
+.titulo {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ff69b4; /* rosa */
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  animation: aparecer 2s ease-in-out;
+}
 
 .night {
   position: fixed;
